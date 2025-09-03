@@ -1,3 +1,25 @@
 body {
-    background-color: blanchedalmond;
+    background-color: #A7C957;
+    color: #FFFAED;
+}
+
+a {
+    color: #FFFAED
+}
+
+h1 {
+    text-align: center;
+    background-color: #BC4749;
+}
+
+h2 {
+   margin-left: 10px; 
+   margin-right: 10px;
+   text-decoration: underline;
+}
+
+h3 {
+    margin-left: 10px;
+    margin-right: 10px;
+    text-decoration: underline;
 }
