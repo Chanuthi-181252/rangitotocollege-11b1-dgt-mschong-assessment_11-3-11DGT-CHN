@@ -10,6 +10,8 @@ a {
 h1 {
     text-align: center;
     background-color: #BC4749;
+    padding-top: 12px;
+    padding-bottom: 12px;
 }
 
 h2 {
@@ -22,4 +24,24 @@ h3 {
     margin-left: 10px;
     margin-right: 10px;
     text-decoration: underline;
+}
+
+ul {
+    list-style-type: none; /*No list styling decorations*/
+    margin: 0;
+    padding: 0;
+    background-color: #BC4749;
+    display: flex;
+    justify-content: center; /*Centering the navigation bar*/
+}
+
+ul li a {
+    display: block;
+    text-decoration: underline;
+    padding: 12px 75px;
+}
+
+ul li a:hover {
+    background-color: #FFFAED;
+    color: #BC4749;
 }
