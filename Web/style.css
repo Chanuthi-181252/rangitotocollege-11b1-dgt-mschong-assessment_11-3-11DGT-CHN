@@ -26,22 +26,26 @@ h3 {
     text-decoration: underline;
 }
 
+
+
 ul {
     list-style-type: none; /*No list styling decorations*/
-    margin: 0;
+    margin: 0; 
     padding: 0;
-    background-color: #BC4749;
-    display: flex;
+    background-color: #BC4749; /*The background colour of the navigation bar*/
+    display: flex; /*Putting a flex container around ul to allow the items (links) to be flex items*/
     justify-content: center; /*Centering the navigation bar*/
 }
 
 ul li a {
-    display: block;
-    text-decoration: underline;
-    padding: 12px 75px;
+    display: block; /*Making the links (flex items) displayed as blocks*/
+    text-decoration: underline; /*Making the text of link underlined*/
+    padding: 12px 75px; /*Making the items have 12px spaces from the top and bottom and 75px from the left and right*/
 }
 
+
+
 ul li a:hover {
-    background-color: #FFFAED;
-    color: #BC4749;
+    background-color: #FFFAED; /*Changing the background colour of the hovered link to make it stand out from the rest*/
+    color: #BC4749; /*Changing the colour of the text to allow the user to see the text as the background is now the same as the original text*/
 }
