@@ -28,24 +28,41 @@ h3 {
 
 
 
-ul {
-    list-style-type: none; /*No list styling decorations*/
+.navbar {
+    overflow: auto; 
     margin: 0; 
     padding: 0;
+    width: 100%;
     background-color: #BC4749; /*The background colour of the navigation bar*/
     display: flex; /*Putting a flex container around ul to allow the items (links) to be flex items*/
+    text-align: center;
+    align-items: center;
+    text-decoration: underline;
     justify-content: center; /*Centering the navigation bar*/
 }
 
-ul li a {
-    display: block; /*Making the links (flex items) displayed as blocks*/
-    text-decoration: underline; /*Making the text of link underlined*/
-    padding: 12px 75px; /*Making the items have 12px spaces from the top and bottom and 75px from the left and right*/
+.dropdown {
+    float: left;
+    overflow: hidden;
 }
 
+.dropdown .dropbtn {
+    font-size: 16px;
+    border: none;
+    color:#FFFAED;
+    padding:  10px 40px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+    text-decoration: underline;
+}
 
+.narbar a:hover, .dropdown:hover .dropbtn {
+    background-color: #FFFAED;
+}
 
-ul li a:hover {
-    background-color: #FFFAED; /*Changing the background colour of the hovered link to make it stand out from the rest*/
-    color: #BC4749; /*Changing the colour of the text to allow the user to see the text as the background is now the same as the original text*/
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: 
 }
