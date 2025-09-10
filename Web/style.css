@@ -44,6 +44,7 @@ h3 {
 .dropdown {
     float: left;
     overflow: hidden;
+    position: relative;
 }
 
 .dropdown .dropbtn {
@@ -55,14 +56,38 @@ h3 {
     font-family: inherit;
     margin: 0;
     text-decoration: underline;
+    width: 150px;
 }
 
 .narbar a:hover, .dropdown:hover .dropbtn {
     background-color: #FFFAED;
+    color: #BC4749;
 }
 
 .dropdown-content {
     display: none;
     position: absolute;
-    background-color: 
+    background-color: #BC4749; 
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    width: 100%;
+}
+
+.dropdown-content a {
+    float: none;
+    color: #FFFAED;
+    padding: 10px 20px;
+    text-decoration: underline;
+    display: block;
+    text-align: left;
+} 
+
+.dropdown-content a:hover {
+    background-color: #FFFAED;
+    color: #BC4749
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
 }
