@@ -53,7 +53,7 @@ h3 {
     padding:  10px 40px;
     background-color: inherit;
     font-family: inherit;
-    margin: 0;
+    margin-right: 30px;
     text-decoration: underline;
 }
 
@@ -78,11 +78,12 @@ h3 {
     text-decoration: underline;
     display: block;
     text-align: left;
+    border-color: #FFFAED;
 } 
 
 .dropdown-content a:hover {
     background-color: #FFFAED;
-    color: #BC4749
+    color: #BC4749;
 }
 
 .dropdown:hover .dropdown-content {
