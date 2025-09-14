@@ -3,10 +3,6 @@ body {
     color: #FFFAED;
 }
 
-a {
-    color: #FFFAED
-}
-
 h1 {
     text-align: center;
     background-color: #BC4749;
@@ -27,7 +23,6 @@ h3 {
 }
 
 
-
 .navbar {
     overflow: auto; 
     margin: 0; 
@@ -41,9 +36,13 @@ h3 {
     justify-content: center; /*Centering the navigation bar*/
 }
 
+a {
+    color: #FFFAED
+}
+
 .dropdown {
-    float: left;
-    overflow: hidden;
+    position: relative;
+    display: inline-block;
 }
 
 .dropdown .dropbtn {
@@ -53,8 +52,9 @@ h3 {
     padding:  10px 40px;
     background-color: inherit;
     font-family: inherit;
-    margin-right: 30px;
+    margin-right: 50px;
     text-decoration: underline;
+    cursor: pointer;
 }
 
 .narbar a:hover, .dropdown:hover .dropbtn {
@@ -66,9 +66,11 @@ h3 {
     display: none;
     position: absolute;
     background-color: #BC4749; 
-    min-width: 160px;
+    width: 100%;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
+    text-align: left;
+    padding: 10px 0;
 }
 
 .dropdown-content a {
@@ -77,8 +79,6 @@ h3 {
     padding: 10px 20px;
     text-decoration: underline;
     display: block;
-    text-align: left;
-    border-color: #FFFAED;
 } 
 
 .dropdown-content a:hover {
