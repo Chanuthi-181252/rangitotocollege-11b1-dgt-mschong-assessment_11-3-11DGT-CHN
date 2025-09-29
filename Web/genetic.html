@@ -10,17 +10,225 @@
   <body>
     <h1>Biology Scholarship Support</h1>
 
-    <nav>
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="evolution.html">Evolution</a></li>
-        <li><a href="human.html">Human Evolution</a></li>
-        <li><a href="conservation.html">Conservation</a></li>
-        <li><a href="genetic.html">Genetic Manipulation</a></li>
-      </ul>
-    </nav>
+    <div class="navbar"> 
+      <div class="dropdown">
+        <button class="button">Home</button>
+        <div class="content">
+          <a href="index.html#scholarship">Scholarship Overview</a>
+          <a href="index.html#involves">What does it involve?</a>
+          <a href="index.html#tips-tricks">Tips & Tricks</a>
+          <a href="index.html#credit-contacts">Contacts/Credits</a>
+        </div>
+      </div>
 
-    <h2>Genetic Manipulation:</h2>
+      <div class="dropdown">
+        <button class="button2">Evolution</button>
+        <div class="content">
+          <a href="evolution.html#evolution-process">Evolutionary Processes</a>
+          <a href="evolution.html#evolution">Evolution</a>
+          <a href="evolution.html#speciation">Speciation</a>
+          <a href="evolution.html#rim">RIMs</a>
+        </div>
+      </div>
+
+      <div class="dropdown">
+        <button class="button">Human Evolution</button>
+        <div class="content">
+          
+        </div>
+      </div>
+
+      <div class="dropdown">
+        <button class="button4">Conservation</button>
+        <div class="content">
+          <a href="conservation.html#interventions">Interventions</a>
+          <a href="conservation.html#parental-care">Parental Care</a>
+          <a href="conservation.html#reproduction">Reproductive Rates</a>
+          <a href="conservation.html#competition">Intraspecific Competition</a>
+          <a href="conservation.html#mating">Mating Systems</a>
+          <a href="conservation.html#bonding">Pair Bonding</a>
+          <a href="conservation.html#recovery">Recovery Programmes</a>
+          <a href="conservation.html#credit-contacts">Contacts/Credits</a>
+        </div>
+      </div>
+
+      <div class="dropdown">
+        <button class="button5">Genetic Manipulation</button>
+        <div class="content">
+          <a href="genetic.html#selective-breeding">Selective Breeding</a>
+          <a href="genetic.html#cloning">Cloning</a>
+          <a href="genetic.html#transgenesis">Transgenesis</a>
+          <a href="genetic.html#crispr">CRISPR</a>
+          <a href="genetic.html#credit-contacts">Contacts/Credits</a>
+        </div>
+      </div>
+    </div>
+
+    <h2 class="h2titles">Genetic Manipulation:</h2>
     
+    <div class="genetic">
+      <div class="genetic-info">
+        <h3 id="selective-breeding">Selective Breeding</h3>
+        <p>Selective breeding is a process where animal and plant breeders select individuals with desireable traits and breed them to produce offspring with these desirable traits.</p>
+        <p>Implications:</p>
+        <ul>
+          <li>Harder to control which combinations of alleles are passed on until it's sure that both parents are homozygous</li>
+          <li>Alleles are lost over generations - these lost alleles may be beneficial in the future. These alleles are lost as the organism that has these alleles have the undesirable allele for the desirable trait</li>
+          <li>Takes several generations</li>
+          <li>Lots of unwanted animals</li>
+          <li>Problems of inbreeding - lethal recessive alleles more likely to come together in an offspring and inbreeding depression may cause the loss of biological fitness over time</li>
+        </ul>
+      </div>
+      
+      <div class="genetic-process">
+        <br>
+        <p>Process:</p>
+        <ol type="1">
+          <li>
+            Decide which <strong><em>characteristics</em></strong> are desired
+            <br>
+            - Select desired phenotypes 
+            <br>
+            - Determine whether the desired allele is dominant/recessive
+          </li>
+          <br>
+          <li>
+            Chose the <strong><em>type of breeding</em></strong> and <strong><em>then parents</em></strong> that show these characteristics
+            <br>
+            - Decide whether to inbreed, outbreed or line breed
+            <br>
+            - Marker Assisted Selection to identify individuals with the desired combination of alleles or sequences related to desired phenotypes
+          </li>
+          <br>
+          <li>
+            Carry out the reproductive process
+            <br>
+            - Artificial Insemination, Embryo Flushing and Embryo Transfer
+            <br>
+            - IVF (In Vitro Fertilisation) and Embryo Transfer
+          </li>
+          <br>
+          <li>Select the best <strong><em>offspring</em></strong> from parents to breed the next generation</li>
+          <br>
+          <li>Repeat the process continuously</li>
+        </ol>
+      </div>
+    </div>
+
+    <div class="genetic">
+      <div class="cloning-info">
+        <h3 id="cloning">Cloning</h3>
+        <p>
+          Reproductive cloning is the process by which a whole organism is cloned.
+          <br>
+          <br>
+          <em>Look at the right for how this process works.</em>
+        </p>
+
+        <p>Implications:</p>
+        <ul>
+          <li>If successful the resultant animal is guaranteed to have the gene of interest</li>
+          <li>Low success rate / takes time to get a successful clone</li>
+          <li>Some clones are born with organ deformitites</li>
+          <li>As all organisms that are cloned are identical to each other, this means there is no genetic variation</li>
+        </ul>
+      </div>
+
+      <div>
+        <img class="cloning" src="./Images/Cloning.png" atr="The Process of Cloning">
+      </div>
+    </div>
+
+    <div class="genetic">
+      <div class="genetic-info">
+        <h3 id="transgenesis">Transgenesis</h3>
+        <p>Transgenesis is a process where the DNA from one species is transferred to another species by artificial means.</p>
+        
+        <p>Implications:</p>
+        <ul>
+          <li>Difficult to successfully insert the gene then successfullly re-implant embryo</li>
+          <li>Possible pleiotropic effects</li>
+          <li>Low success rate / takes time</li>
+          <li>If successful, it can increase the fitness the organism</li>
+        </ul>
+      </div>
+      
+      <div class="genetic-process">
+        <p>Process:</p>
+        <ol type="1">
+          <li>Design gene construct by accociating the gene of interest with an appropriate promoter</li>
+          <li>restriction enzymes - cut the gene of interest, promoter and plasmid with the same restriction enzymes</li>
+          <li>Ligation - make recombinant DNA by stick the gene construct together</li>
+          <li>Check the gene construct sequence by DNA sequence analysis</li>
+          <li>Multiplying the plasmid in bacteria and recovering the cloned construct for injection</li>
+          <li>Transferrence of the construct into the recipient tissue by micoroinjection, usually into fertilised eggs (In mammals, the egg is implanted into a surrogate)</li>
+          <li>Integration of gene into recipient genome</li>
+          <li>Checking offspring is transgenic and for the number of insertion sites by DNA sequence analysis</li>
+          <li>Expression of gene in recipient genome</li>
+          <li>Inheritance of gene through further generations</li>
+        </ol>
+      </div>
+    </div>
+
+    <div class="genetic">
+      <div class="crispr-info">
+        <h3 id="crispr">CRISPR</h3>
+        <p>CRISPR (Clustered Regularly Interspaced Short Palindromic Repeats) is a powerful editing tool used in genetic engineering. It allows scientists to make precision edits to DNA in living organisms.</p>
+        <p>Applications:</p>
+        <ol type="1">
+          <li>Medicine & Healthcare</li>
+          <li>Agriculture</li>
+          <li>
+            Environmental Science:
+              <ul>
+                <li>Ecological Management: CRISPR can help in managing invasive species by altering their genetic makeup to reduce their impact on native ecosystems</li>
+                <li>Conservation: It can be used to enhance the genetic diversity of endangered species or to resurrect traits that hve been lost over time</li>
+              </ul>
+          </li>
+          <li>Basic Research</li>
+          <li>
+            Agricultural biotechnology:
+            <ul>
+              <li>Pest Control: CRISPR is used in creating genetically modified insects that can help in controlling pest populations</li>
+              <li>Plant Breeding: It helps in developing crops with enhanced nutritional profiles, better resistance to diseases, and improved growth charateristics</li>
+            </ul>
+          </li>
+          <li>Gene Drives</li>
+        </ol>
+      </div>
+
+      <div>
+        <iframe class="crispr" width="560" height="315" src="https://www.youtube.com/embed/MnYppmstxIs?si=ULOiHnS-uEGRkSvr" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      </div>
+    </div>
+
+    <footer id="credit-contacts" class="footer1">
+      <div class="footer">
+        <div class="contacts">
+          <h3>Contact:</h3>
+            <ul>
+              <li>rachel.jackson@cloud.rangitoto.school.nz</li>
+              <li>samantha.farmiloe@cloud.rangitoto.school.nz</li>
+            </ul>
+        </div>
+        <div class="credits">
+          <h3>Credits:</h3>
+            <ul>
+              <li>Cloning Process Image:</li>
+              <ul>
+                <li>This was screenshot taken from <a href=""></a></li>
+                
+              </ul>
+              <br>
+              
+              <li>CRISPR Video:</li>
+              <ul>
+                <li>Author/Creator: Youtube Account: Bozeman Science</li>
+                <li>Youtube link: <a href="https://youtu.be/MnYppmstxIs?feature=shared">https://youtu.be/MnYppmstxIs?feature=shared</a></li>
+              </ul>
+            </ul>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>

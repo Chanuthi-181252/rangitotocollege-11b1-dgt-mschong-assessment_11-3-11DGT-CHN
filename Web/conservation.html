@@ -10,62 +10,198 @@
   <body>
     <h1>Biology Scholarship Support</h1>
 
-    <nav>
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="evolution.html">Evolution</a></li>
-        <li><a href="human.html">Human Evolution</a></li>
-        <li><a href="conservation.html">Conservation</a></li>
-        <li><a href="genetic.html">Genetic Manipulation</a></li>
-      </ul>
-    </nav>
+    <div class="navbar"> 
+      <div class="dropdown">
+        <button class="button">Home</button>
+        <div class="content">
+          <a href="index.html#scholarship">Scholarship Overview</a>
+          <a href="index.html#involves">What does it involve?</a>
+          <a href="index.html#tips-tricks">Tips & Tricks</a>
+          <a href="index.html#credit-contacts">Contacts/Credits</a>
+        </div>
+      </div>
 
-    <h2>Conservation:</h2>
+      <div class="dropdown">
+        <button class="button2">Evolution</button>
+        <div class="content">
+          <a href="evolution.html#evolution-process">Evolutionary Processes</a>
+          <a href="evolution.html#evolution">Evolution</a>
+          <a href="evolution.html#speciation">Speciation</a>
+          <a href="evolution.html#rim">RIMs</a>
+        </div>
+      </div>
 
-    <h3>Notes:</h3>
-    <h4>Interventions</h4>
-    <ol type="1">
-      <li><strong><em>Introduced predators/competitor species</em></strong> - creation of offshore or onshore predator free islands which have predator proof fences and are monitored with cameras, traps, tracking cards and tunnels. <strong><em>(Protected Areas)</em></strong></li>
-      <li><strong><em>Restoration of habitat</em></strong> - replanting the natural habitat so specialist species can feed and reproduce in their original habitat.</li>
-      <li><stong><em>Establishing new populations</em></stong> in suitable habitats by <strong><em>translocation.</em></strong>
+      <div class="dropdown">
+        <button class="button">Human Evolution</button>
+        <div class="content">
+          
+        </div>
+      </div>
+
+      <div class="dropdown">
+        <button class="button4">Conservation</button>
+        <div class="content">
+          <a href="conservation.html#interventions">Interventions</a>
+          <a href="conservation.html#parental-care">Parental Care</a>
+          <a href="conservation.html#reproduction">Reproductive Rates</a>
+          <a href="conservation.html#competition">Intraspecific Competition</a>
+          <a href="conservation.html#mating">Mating Systems</a>
+          <a href="conservation.html#bonding">Pair Bonding</a>
+          <a href="conservation.html#recovery">Recovery Programmes</a>
+          <a href="conservation.html#credit-contacts">Contacts/Credits</a>
+        </div>
+      </div>
+
+      <div class="dropdown">
+        <button class="button5">Genetic Manipulation</button>
+        <div class="content">
+          <a href="genetic.html#selective-breeding">Selective Breeding</a>
+          <a href="genetic.html#cloning">Cloning</a>
+          <a href="genetic.html#transgenesis">Transgenesis</a>
+          <a href="genetic.html#crispr">CRISPR</a>
+          <a href="genetic.html#credit-contacts">Contacts/Credits</a>
+        </div>
+      </div>
+    </div>
+
+    <h2 class="h2titles">Conservation:</h2>
+
+    <div class="conservation-notes-titles">
+      <h3 id="interventions">Interventions</h3>
+      <ol type="1">
+        <li><strong><em>Introduced predators/competitor species</em></strong> - creation of offshore or onshore predator free islands which have predator proof fences and are monitored with cameras, traps, tracking cards and tunnels. <strong><em>(Protected Areas)</em></strong></li>
+        <li><strong><em>Restoration of habitat</em></strong> - replanting the natural habitat so specialist species can feed and reproduce in their original habitat.</li>
+        <li><stong><em>Establishing new populations</em></stong> in suitable habitats by <strong><em>translocation.</em></strong>
+          <ul>
+            <li>New populations must be large enough population so inbreeding is minimised and founder effect is not too pronounced. Enough breeding pairs must be translocated to prevent inbreeding depression.</li>
+            <li>Populations must be far enough apart so diseases can not be transferred between populations. If one population creashes other popuations ensure the species is not wiped out.</li>
+            <li>Transfer birds between populations after they are established to maintain genetic diversity and to prevent RIMs (Reproductive Isolation Mechanisms) forming (eg. behavioural due to birdsong).</li>
+            <li>Different populations would be exposed to different selection pressures so the allele frequencies of the populations would differ, increasing genetic diversity.</li>
+          </ul>
+        </li>
+        <li><strong><em>Double clutching</em></strong> increases the number of chicks hatched increasing the reproductive rate. Surrogate species may be used to raise these chicks. The surrogate must be a closey related species as the chicks may imprint the behaviour of the parent.</li>
+        <li><strong><em>Hand raising chicks in captivitiy</em></strong> to remove risk factors to allow them to survive until adolescence when they can be released. Adolescents are more likely to survive predation.</li>
+        <li><strong><em>DNA screening</em></strong> to identify parents with deleterious alleles - selective breeding - do not allow these birds to breed. DNA screening can also identify genetically diverser individuals to increase outbreeding.</li>
+        <li><strong><em>Gene Editing</em></strong> - using Crispr to potentially edit harmful alleles from an individual/population.</li>
+        <li><strong><em>Wildlife corridors</em></strong> that maintain gene flow between populations/prevent species crossing highways where they can be killed.</li>
+        <li><strong><em>Legislate</em></strong> against any human impacts affecting the vulnerable species (eg. bn hunting etc.)</li>
+        <li><strong><em>Vaccinations</em></strong> - vaccines can be developed to help prevent spread of pathogens etc.</li>
+      </ol>
+      <br>
+    </div>
+    
+    <div class="conservation-notes-titles">
+      <h3 id="parental-care">Parental Care</h3>
+      <table>
+        <tr>
+          <th></th>
+          <th>r-strategists (ruthless)</th>
+          <th>k-strategists (kind)</th>
+        </tr>
+        <tr>
+          <td>Definition</td>
+          <td>Little to no parental care, with large numbers of offspring produced.</td>
+          <td>Large amounts of parental care. Few offspring are born and the parents spend a lot of time raising the young.</td>
+        </tr>
+        <tr>
+          <td>Advantages</td>
+          <td>
+            <ul>
+              <li>Don't use energy over a long period of time caring for offspring (so fitness of parent does not decrease).</li>
+              <li>Offspring are not dependent on parents for survival.</li>
+            </ul>
+          </td>
+          <td>Offspring are well fed and protected (so high probability of survival).</td>
+        </tr>
+      </table>
+      <br>
+    </div>
+
+    <div  class="conservation">
+      <div class="conservation-info">
+        <h3 id="reproduction">Reproduction Rates</h3>
+        <p>These rates are often slow in threated organisms for multiple reasons</p>
         <ul>
-          <li>New populations must be large enough population so inbreeding is minimised and founder effect is not too pronounced. Enough breeding pairs must be translocated to prevent inbreeding depression.</li>
-          <li>Populations must be far enough apart so diseases can not be transferred between populations. If one population creashes other popuations ensure the species is not wiped out.</li>
-          <li>Transfer birds between populations after they are established to maintain genetic diversity and to prevent RIMs (Reproductive Isolation Mechanisms) forming (eg. behavioural due to birdsong).</li>
-          <li>Different populations would be exposed to different selection pressures so the allele frequencies of the populations would differ, increasing genetic diversity.</li>
+          <li>Time taken to reach sexual maturity - varies between species, but can be a number of years</li>
+          <li>Number of eggs/offspring produced at one time - ususally only 1-2 offspring are produced</li>
+          <li>Frequency of producing offspring - many threatened species do not produce offspring each year</li>
+          <li>Short life span -  so fewer offspring produced overall</li>
         </ul>
-      </li>
-      <li><strong><em>Double clutching</em></strong> increases the number of chicks hatched increasing the reproductive rate. Surrogate species may be used to raise these chicks. The surrogate must be a closey related species as the chicks may imprint the behaviour of the parent.</li>
-      <li><strong><em>Hand raising chicks in captivitiy</em></strong> to remove risk factors to allow them to survive until adolescence when they can be released. Adolescents are more likely to survive predation.</li>
-      <li><strong><em>DNA screening</em></strong> to identify parents with deleterious alleles - selective breeding - do not allow these birds to breed. DNA screening can also identify genetically diverser individuals to increase outbreeding.</li>
-      <li><strong><em>Gene Editing</em></strong> - using Crispr to potentially edit harmful alleles from an individual/population.</li>
-      <li><strong><em>Wildlife corridors</em></strong> that maintain gene flow between populations/prevent species crossing highways where they can be killed.</li>
-      <li><strong><em>Legislate</em></strong> against any human impacts affecting the vulnerable species (eg. bn hunting etc.)</li>
-      <li><strong><em>Vaccinations</em></strong> - vaccines can be developed to help prevent spread of pathogens etc.</li>
-    </ol>
 
-    <h4>Parental Care</h4>
-    <p>r-strategists (ruthless)</p>
-      <p>Definition 
-        <br>
-        Little to no parental care, with large numbers of offspring produced.
-      </p>
-      <p>Advantages
-        <br>
+        <h3 id="competition">Intraspecific Competition</h3>
+        <p>Interspecific competition is the competition between organisms/members of the same species.</p>
         <ul>
-          <li>Don't use energy over a long period of time caring for offspring (so fitness of parent does not decrease).</li>
-          <li>Offspring are not dependent on parents for survival.</li>
+          <li>It occurs for the need of resources (food, water, space, shelter & mates)</li>
+          <li>This competition is more intense compared to interspecific competition because individuals of the same species require the same recourse to occupy the same niche</li>
         </ul>
-      </p>
-    <p>k-strategists (kind)</p>
-      <p>Definition
-        <br>
-        Large amounts of parental care. Few offspring are born and the parents spend a lot of time raising the young.
-      </p>
-      <p>Advantages
-        <br>
-        Offspring are well fed and protected (so high probability of survival).
-      </p>
 
+        <h3 id="mating">Mating Systems</h3>
+        <ul>
+          <li>Polygynandry =  males mate with multiple females (this creates larger genetic diversity as there is less competition for mates)</li>
+          <li>Monogamy = each individual mates with only one partner</li>
+        </ul>
+
+        <h3 id="bonding">Pair Bonding</h3>
+        <p>
+          Pair Bond = a stable relationship between animals of the opposite sex that ensures <strong><em>cooperative behaviour</em></strong> during <strong>mating<em></em></strong> and <strong><em>rasing the young</em></strong>.
+          <br>
+          Disadvantages:
+          <ul>
+            <li>Offspring are dependent on parents for survival for long period of time</li>
+            <li>Parenting is energy expensive and so breeding is limited to allternate years</li>
+            <li>Offspring is vulnerable if one or both parents die</li>
+          </ul>
+        </p>
+        
+        <h3 id="recovery">Recovery Programmes</h3>
+        <p>Successful population recovery programmes aim to:</p>
+        <ul>
+          <li>Increase population size</li>
+          <li>Increase genetic diversity</li>
+          <li>Establish self-sustaining populations</li>
+          <li>Have multiple populations (act as insurance in case populations don't survive)</li>
+          <li>Multiple breeding pairs (to continue to increase genetic variation)</li>
+        </ul>
+        <p>These goals ensure the long-term survival and resilience of threatened species, contributing to broader biodiversity and ecosystem health.</p>
+      </div>
+
+      <div>
+        <iframe class="conservation-videos" width="560" height="315" src="https://www.youtube.com/embed/Bu6ouKt9zhs?si=UidQZxiyqviW8jfX" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <br>
+        <br>
+        <br>
+        <iframe class="conservation-videos" width="560" height="315" src="https://www.youtube.com/embed/Kaeyr5-O2eU?si=85tkEB0tuouzzxqy" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      </div>
+    </div>
+
+    <footer id="credit-contacts" class="footer1">
+      <div class="footer">
+        <div class="contacts">
+          <h3>Contact:</h3>
+            <ul>
+              <li>rachel.jackson@cloud.rangitoto.school.nz</li>
+              <li>samantha.farmiloe@cloud.rangitoto.school.nz</li>
+            </ul>
+        </div>
+        <div class="credits">
+          <h3>Credits:</h3>
+            <ul>
+              <li>k-selected vs r-selected video:</li>
+              <ul>
+                <li>Author/Creator: Youtube Account: Bozeman Science</li>
+                <li>Youtube link: <a href="https://youtu.be/Bu6ouKt9zhs?feature=shared">https://youtu.be/Bu6ouKt9zhs?feature=shared</a></li>
+              </ul>
+              <br>
+              
+              <li>Conservation and Restoration video:</li>
+              <ul>
+                <li>Author/Creator: Youtube Account: CrashCourse</li>
+                <li>Youtube link: <a href="https://youtu.be/Kaeyr5-O2eU?feature=shared">https://youtu.be/Kaeyr5-O2eU?feature=shared</a></li>
+              </ul>
+            </ul>
+        </div>
+      </div>
+    </footer>
+    
   </body>
 </html>

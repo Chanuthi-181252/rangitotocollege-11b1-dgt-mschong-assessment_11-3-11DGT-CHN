@@ -25,7 +25,7 @@ h3 {
 .navbar {
     background-color: #BC4749;
     overflow: auto;
-    padding-left: 70px;
+    padding-left: 120px;
 }
 .dropdown {
     display: inline-block;
@@ -34,6 +34,30 @@ h3 {
     background-color: #BC4749;
     color: #FFFAED;
     padding: 10px 69px;
+    border: none;
+    cursor: pointer;
+    text-decoration: underline;
+}
+.dropdown .button2 {
+    background-color: #BC4749;
+    color: #FFFAED;
+    padding: 10px 63px;
+    border: none;
+    cursor: pointer;
+    text-decoration: underline;
+}
+.dropdown .button4 {
+    background-color: #BC4749;
+    color: #FFFAED;
+    padding: 10px 58px;
+    border: none;
+    cursor: pointer;
+    text-decoration: underline;
+}
+.dropdown .button5 {
+    background-color: #BC4749;
+    color: #FFFAED;
+    padding: 10px 13.5px;
     border: none;
     cursor: pointer;
     text-decoration: underline;
@@ -88,7 +112,7 @@ h3 {
 .overview {
     display: grid;
     grid-template-columns: repeat(2, minmax(0,1fr));
-    margin-top: 50px
+    margin-top: 50px;
 }
 .overview-info{
     background-color: #BC4749;
@@ -98,11 +122,97 @@ h3 {
     padding: 0px 35px;
     height: 95%;
 }
-#overview-image1 {
+.overview-image {
     width: 100%;
     height: 46%;
 }
-#overview-image2 {
+
+.conservation-notes-titles {
+    background-color: #BC4749;
+    text-align: left;
+}
+
+table {
+    width: 90%;
+    border-collapse: collapse;
+    margin-left: 30px;
+}
+td, th {
+    border: 1px solid #FFFAED;
+    text-align: left;
+    padding: 8px;
+}
+
+.h2titles {
+    background-color: #BC4749;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 10;
+    padding: 5px;
+}
+
+.conservation {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0,1fr));
+    margin-top: 30px;
+}
+.conservation-info{
+    background-color: #BC4749;
+    text-align: left;
+    font-size: 16px;
+    margin-right: 12px;
+    padding: 0px 28px;
+    height: 100%;
+}
+.conservation-videos {
     width: 100%;
-    height: 46%;
+    height: 48%; 
+}
+
+.footer1 {
+    margin-top: 40px;
+}
+
+.genetic {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0,1fr));
+    margin-top: 30px;
+}
+.genetic-info {
+    background-color: #BC4749;
+    text-align: left;
+    font-size: 16px;
+    padding: 0px 28px;
+    height: 100%;
+}
+.genetic-process {
+    background-color: #BC4749;
+    text-align: left;
+    font-size: 16px;
+    padding: 0px 30px;
+    height: 100%;
+}
+.cloning-info {
+    background-color: #BC4749;
+    text-align: left;
+    font-size: 18px;
+    margin-right: 12px;
+    padding: 0px 28px;
+    height: 80%;
+}
+.cloning {
+    width: 100%;
+    height: 80%;
+}
+.crispr-info {
+    background-color: #BC4749;
+    text-align: left;
+    font-size: 16px;
+    margin-right: 12px;
+    padding: 0px 28px;
+    height: 100%;
+}
+.crispr {
+    width: 100%;
+    height: 100%;
 }
