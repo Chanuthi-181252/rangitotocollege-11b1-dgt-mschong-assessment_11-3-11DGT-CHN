@@ -46,6 +46,14 @@ h3 {
     cursor: pointer;
     text-decoration: underline;
 }
+.dropdown .button3 {
+    background-color: #BC4749;
+    color: #FFFAED;
+    padding: 10px 43px;
+    border: none;
+    cursor: pointer;
+    text-decoration: underline;
+}
 .dropdown .button4 {
     background-color: #BC4749;
     color: #FFFAED;
@@ -254,4 +262,42 @@ td, th {
 .evolution-video2 {
     justify-content: flex-end;
     margin-left: 75px;
+}
+
+.human {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0,1fr));
+    margin-top: 30px;
+}
+.human-info {
+    background-color: #BC4749;
+    text-align: left;
+    font-size: 16px;
+    margin-right: 12px;
+    padding: 0px 28px;
+    height: 100%;
+}
+.human-1-info {
+    background-color: #BC4749;
+    text-align: left;
+    font-size: 16px;
+    padding: 0px 28px;
+    height: 100%;
+}
+.dispersal {
+    background-color: #BC4749;
+    text-align: left;
+    font-size: 17px;
+    margin-right: 12px;
+    padding: 0px 28px;
+    height: 100%;
+}
+.bipedalism {
+    background-color: #BC4749;
+    text-align: left;
+    font-size: 16px; 
+    padding: 0px 28px;
+}
+.bipedalism1 {
+    padding-left: 80px;
 }
