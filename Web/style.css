@@ -301,3 +301,42 @@ td, th {
 .bipedalism1 {
     padding-left: 80px;
 }
+.quiz {
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+    padding: 20px;
+    background-color: #BC4749;
+    margin-top: 30px;
+}
+.question-grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 12px;
+}
+.question {
+    background-color: #A7C957;
+    border: 1px solid #FFFAED;
+    margin: 15px;
+    border-radius: 15px;
+    padding-right: 5px;
+}
+.question-title {
+    padding-left: 10px;
+}
+.question li {
+    list-style: none;
+    padding-bottom: 7px;
+}
+.submit {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+    padding-right: 20px;
+}
+.submit button {
+    cursor: pointer;
+    background-color:#A7C957;
+    color:#FFFAED;
+    border: 2px solid #FFFAED;
+}
