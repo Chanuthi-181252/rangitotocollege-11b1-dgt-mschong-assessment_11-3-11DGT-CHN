@@ -26,6 +26,7 @@ window.addEventListener('DOMContentLoaded', () => {
 
     checkAllAnswered();
 
+    
     document.getElementById("redoButton").addEventListener("click", () => {
     const quiz = document.querySelector(".quiz");
     const radios = quiz.querySelectorAll("input[type='radio']");
