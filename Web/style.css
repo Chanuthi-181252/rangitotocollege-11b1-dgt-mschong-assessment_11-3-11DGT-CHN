@@ -340,3 +340,26 @@ td, th {
     color:#FFFAED;
     border: 2px solid #FFFAED;
 }
+#results {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 20px;
+}
+#warningMessage {
+    color:#FFFAED;
+    display: none;
+}
+#redoButton {
+    margin-left: 5px;
+}
+#quizContainer {
+    display: none;
+}
+#startQuizButton {
+    display: block;
+    margin: 0 auto;
+    background-color: #BC4749;
+    color:#FFFAED;
+    margin-top: 30px;
+    border: 1px solid #FFFAED;
+}
