@@ -203,14 +203,14 @@ td, th {
 .cloning-info {
     background-color: #BC4749;
     text-align: left;
-    font-size: 18px;
+    font-size: 16px;
     margin-right: 12px;
     padding: 0px 28px;
-    height: 80%;
+    height: 100%;
 }
 .cloning {
     width: 100%;
-    height: 80%;
+    height: 100%;
 }
 .crispr-info {
     background-color: #BC4749;
