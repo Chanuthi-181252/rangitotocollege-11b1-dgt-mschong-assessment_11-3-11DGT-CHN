@@ -135,6 +135,11 @@ h3 {
     height: 46%;
 }
 
+.text-color {
+    background-color: #A7C957;
+    padding: 10px 5px;
+}
+
 .conservation-notes-titles {
     background-color: #BC4749;
     text-align: left;
